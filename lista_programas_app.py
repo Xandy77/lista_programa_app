@@ -1,7 +1,7 @@
 # importa biblioteca
 import winapps
 
-# exibe lista de programas
+# lista programas   
 for item in winapps.list_installed():
     print(f'Programa: {item.name}.')
     print(f'Versão: {item.version}.')
